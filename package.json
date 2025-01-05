@@ -1,0 +1,20 @@
+{
+  "name": "position-master",
+  "version": "1.0.0",
+  "description": "DeFi position management and optimization on Solana",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.29.0",
+    "@project-serum/anchor": "^0.18.1",
+    "typescript": "^4.5.4",
+    "tfjs-node": "^3.8.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.2.1",
+    "@types/node": "^16.0.0"
+  }
+}
